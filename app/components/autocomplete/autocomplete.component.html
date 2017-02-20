@@ -1,0 +1,6 @@
+<p-autoComplete  [(ngModel)]="countries" [suggestions]="filteredCountriesMultiple" (completeMethod)="filterCountryMultiple($event)" styleClass="wid100"
+    [minLength]="1" placeholder="Countries" field="name" [multiple]="true">
+</p-autoComplete>
+<!-- <ul>
+    <li *ngFor="let c of countries">{{c.name}}</li>
+</ul> -->
